@@ -6,4 +6,11 @@
   background-size: 100%;
   height: 100vh; }
 
+.navigation {
+  padding-top: 10vh;
+  margin-left: -1vw; }
+
+.nav-icon:hover {
+  transform: scale(1.2); }
+
 /*# sourceMappingURL=style.css.map */
