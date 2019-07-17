@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <div class="page-basic container-fluid">
+                <div class="navigation">
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="index.html"><img src="images/home.png" class="nav-icon"></a>
+                        <a class="nav-link" href="modal.html"><img src="images/menu.png" class="nav-icon"></a>
+                    </nav>
+                </div>
+                <div class="container-fluid d-flex justify-content-center">
+                    <div>
+                        <button id="mdl-1" type="button" class="btn btn-primary btn-block">MODAL</button>
+                        <button id="mdl-2" type="button" class="btn btn-primary btn-block">MODAL BOTTOM</button>
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#bootstrapModal">MODAL BOOTSTRAP</button>
+                    </div>
+
+                    <div id="myModal" class="modal1">
+                        <div class="modal1-content">
+                          <span class="close">
+                                <svg>
+                                    <circle cx="12" cy="12" r="11" stroke="black" stroke-width="2" fill="white" />
+                                    <path stroke="black" stroke-width="4" fill="none" d="M6.25,6.25,17.75,17.75" />
+                                    <path stroke="black" stroke-width="4" fill="none" d="M6.25,17.75,17.75,6.25" />
+                                </svg>
+                            </span>
+                          <p>Some text in the Modal..<br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+
+                    <div id="myModal2" class="modal2">
+                        <div class="modal2-content">
+                            <div class="modal2-header">
+                                    <span class="close">
+                                            <svg>
+                                                <circle cx="12" cy="12" r="11" stroke="black" stroke-width="2" fill="white" />
+                                                <path stroke="black" stroke-width="4" fill="none" d="M6.25,6.25,17.75,17.75" />
+                                                <path stroke="black" stroke-width="4" fill="none" d="M6.25,17.75,17.75,6.25" />
+                                            </svg>
+                                        </span>
+                                <h2>Modal Header</h2>
+                            </div>
+                            <div class="modal2-body">
+                                <p>Some text in the Modal Body</p>
+                                <p>Some other text...</p>
+                            </div>
+                            <div class="modal2-footer">
+                                <h3>Modal Footer</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="bootstrapModal" tabindex="-1" role="dialog" aria-labelledby="bootstrapModalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="bootstrapModalTitle">Modal Bootstrap</h5>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p>
+                                    Some text in the Modal..<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                    sadadadasgfg<br><br><br><br><br><br><br><br><br><br><br><br>
+                                    </p>
+                                </div>
+
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
