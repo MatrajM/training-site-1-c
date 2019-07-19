@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+    <body onload="document.getElementById('homeDefault').click();">
         <main>
             <div class="page-basic container-fluid">
                 <div class="navigation">
@@ -15,6 +15,33 @@
                         <a class="nav-link" href="index.html"><img src="images/home.png" class="nav-icon"></a>
                         <a class="nav-link" href="modal.html"><img src="images/menu.png" class="nav-icon"></a>
                     </nav>
+                </div>
+                <div class="tabsection">
+                        <button class="tablink" onclick="openPage('Home', this, '#4caf50')" id="homeDefault">Home</button>
+                        <button class="tablink" onclick="openPage('News', this, '#4caf50')">News</button>
+                        <button class="tablink" onclick="openPage('Contact', this, '#4caf50')">Contact</button>
+                        <button class="tablink" onclick="openPage('About', this, '#4caf50')">About</button>
+                        
+                        <div id="Home" class="tabcontent">
+                          <h3>TITLE</h3>
+                          <p>Home is where the heart is..</p>
+                        </div>
+                        
+                        <div id="News" class="tabcontent">
+                          <h3>TITLE</h3>
+                          <p>Some news this fine day!<br><br><br><br><br><br><br><br><br><br><br></p> 
+                        </div>
+                        
+                        <div id="Contact" class="tabcontent">
+                          <h3>Contact</h3>
+                          <p>Get in touch, or swing by for a cup of coffee.</p>
+                        </div>
+                        
+                        <div id="About" class="tabcontent">
+                          <h3>About</h3>
+                          <p>Who we are and what we do.</p>
+                        </div>
+
                 </div>
             </div>
         </main>
